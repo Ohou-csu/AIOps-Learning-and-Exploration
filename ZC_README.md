@@ -3,7 +3,7 @@
 </p>
 <h3>数据</h3>
 <p>数据集位于"/SSH/data",包括原始数据和处理后的服务器性能数据,前者时间间隔为5min,后者时间间隔为1小时</p>
-<img src="https://github.com/Ohou-csu/AIOps-Learning-and-Exploration/tree/main/Images/服务器性能数据.png">
+<img src="https://github.com/Ohou-csu/AIOps-Learning-and-Exploration/blob/main/Images/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%80%A7%E8%83%BD%E6%95%B0%E6%8D%AE.png">
 <h3>环境要求</h3>
 <p>本实验硬件环境如下所示,代码大部分使用GPU运行</p>
 <blockquote>
