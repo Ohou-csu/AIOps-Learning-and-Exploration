@@ -19,7 +19,6 @@ CUDA Version: 11.1
 <code>python3 AE_LSTM_MemoryPrediction_Model_CPU.py</code>
 <h3>分析</h3>
 每个模型文件中存在一个Analysis.py,用于保存和分析模型参数以及预测结果
-<h3>参考</h3>
 
 
 
