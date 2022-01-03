@@ -94,3 +94,17 @@ pip3 install -r requirements.txt
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 XY
 #时间序列异常检测 将胶囊网络应用到时间序列的异常检测中。 #数据 数据集是MINIST ##使用数据集 安装和下载数据集： pip install -r requirements.txt python download_data.py 开始训练： python main.py ##测试精度 python main.py --is_training False
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#LJH-命名实体识别
+这个项目支持Finetune-Bert+Crf、Finetune-Bert+BiLstm+Crf、Bert+BiLstm+Crf、BiLstm+Crf四类模型的训练，配置组合如下：  
+
+模型|use_bert|use_bilstm|finetune|
+:---|:---|:---|---
+BiLstm+Crf|False|True|False
+Bert+BiLstm+Crf|True|True|False
+Finetune-Bert+Crf|True|False|True
+Finetune-Bert+BiLstm+Crf|True|True|True
+具体说明在个人文件夹中。
+Reference：
+* 参考项目：https://github.com/StanleyLsx/entity_extractor_by_ner
