@@ -63,7 +63,6 @@ n_windows小于n_timestamps。这是因为我们不能在没有填充X的情况�
 TY_傅里叶变换与自相关分析_周期性检测
   该文件展示了在时间序列数据上检测周期性的流程，其大致流程为：傅里叶变换获取候选周期-->自相关图获取真周期。
 具体流程为：
-
 导入数据；
 打印原始数据时序图查看数据中有无名明显的周期特性；
 傅里叶变换获取候选周期：
@@ -84,13 +83,12 @@ ZC
 
 环境要求
 本实验硬件环境如下所示,代码大部分使用GPU运行
-
-CPU：Intel(R) Core(TM) i9-10940X CPU @ 3.30GHz; GPU：GeForce RTX 3090; NVIDIA-SMI 455.23.04; Driver Version: 455.23.04; CUDA Version: 11.1
-pip3 install -r requirements.txt
-运行
-直接运行模型文件即可,例如: python3 AE_LSTM_MemoryPrediction_Model_CPU.py
-分析
-每个模型文件中存在一个Analysis.py,用于保存和分析模型参数以及预测结果
+  CPU：Intel(R) Core(TM) i9-10940X CPU @ 3.30GHz; GPU：GeForce RTX 3090; NVIDIA-SMI 455.23.04; Driver Version: 455.23.04; CUDA Version: 11.1
+  pip3 install -r requirements.txt
+  运行
+  直接运行模型文件即可,例如: python3 AE_LSTM_MemoryPrediction_Model_CPU.py
+  分析
+  每个模型文件中存在一个Analysis.py,用于保存和分析模型参数以及预测结果
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 XY
 #时间序列异常检测 将胶囊网络应用到时间序列的异常检测中。 #数据 数据集是MINIST ##使用数据集 安装和下载数据集： pip install -r requirements.txt python download_data.py 开始训练： python main.py ##测试精度 python main.py --is_training False
