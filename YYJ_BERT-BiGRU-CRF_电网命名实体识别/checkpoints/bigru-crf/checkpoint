@@ -1,0 +1,8 @@
+model_checkpoint_path: "model-34"
+all_model_checkpoint_paths: "model-32"
+all_model_checkpoint_paths: "model-33"
+all_model_checkpoint_paths: "model-34"
+all_model_checkpoint_timestamps: 1640418931.190674
+all_model_checkpoint_timestamps: 1640419283.3002875
+all_model_checkpoint_timestamps: 1640419802.1381178
+last_preserved_timestamp: 1640407552.3619628
