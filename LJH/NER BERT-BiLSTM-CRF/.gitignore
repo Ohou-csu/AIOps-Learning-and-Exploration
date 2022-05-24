@@ -1,6 +1,0 @@
-# exclude 
-__pycache__/*
-.idea/*
-engines/__pycache__/*
-engines/utils/__pycache__/*
-data
